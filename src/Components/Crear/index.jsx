@@ -18,7 +18,6 @@ const CompraVentaComponenteCrearContrato = () => {
 
   const UrlComprador = 'http://benjaesteban.github.io/Contrato-Inteligente/'
 
-
   const conectarMetamask = async () => {
     if (window.ethereum) {
       await window.ethereum.request({ method: 'eth_requestAccounts' })

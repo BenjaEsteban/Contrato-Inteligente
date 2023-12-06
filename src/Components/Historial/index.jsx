@@ -150,14 +150,14 @@ function Historial() {
                                                       <div className='flex flex-col justify-center items-center my-5 gap-5'>
                                                             <p className='text-xl font-bold lg:text-2xl'>Vendedor</p>
                                                             <div>
-                                                                  <p className='lg:text-lg'>{detalleContrato.vendedor}</p>
+                                                                  <p className='lg:text-lg'>{detalleContrato.comprador}</p>
                                                             </div>
 
                                                       </div>
                                                       <div className='flex flex-col justify-center items-center my-5 gap-5'>
                                                             <p className='text-xl font-bold lg:text-2xl'>Comprador</p>
                                                             <div>
-                                                                  <p className='lg:text-lg'>{detalleContrato.comprador}</p>
+                                                                  <p className='lg:text-lg'>{detalleContrato.vendedor}</p>
                                                             </div>
 
                                                       </div>
